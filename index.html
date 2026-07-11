@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ShopEase</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+rel="stylesheet">
+
+</head>
+<body>
+
+<nav>
+
+<i class="fa-solid fa-cart-shopping"></i>ShopEase
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="#">Cart <span id="count">0</span></a></li>
+</ul>
+
+</nav>
+
+<section class="hero">
+
+<h1>Discover Amazing Deals</h1>
+
+<p>Shop the latest fashion, gadgets and accessories.</p>
+
+<button onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})">
+    Shop Now
+</button>
+
+</section>
+<section class="stats">
+
+<div>
+<h2>500+</h2>
+<p>Products</p>
+</div>
+
+<div>
+<h2>1000+</h2>
+<p>Happy Customers</p>
+</div>
+
+<div>
+<h2>24/7</h2>
+<p>Support</p>
+</div>
+
+<div>
+<h2>100%</h2>
+<p>Secure Payment</p>
+</div>
+
+</section>
+<div class="search-section">
+    <input
+        type="text"
+        id="search"
+        placeholder="Search products..."
+        onkeyup="searchProducts()"
+    >
+</div>
+
+<div class="filters">
+
+<button onclick="filterProducts('All')">All</button>
+
+<button onclick="filterProducts('Electronics')">Electronics</button>
+
+<button onclick="filterProducts('Fashion')">Fashion</button>
+
+<button onclick="filterProducts('Accessories')">Accessories</button>
+
+</div>
+
+<h2 class="title">✨ Featured Products ✨</h2>
+<section id="products" class="products">
+
+</section>
+<section class="services">
+
+<div>
+
+<h3>🚚 Free Delivery</h3>
+
+<p>Free shipping on orders above ₹999.</p>
+
+</div>
+
+<div>
+
+<h3>🔒 Secure Payment</h3>
+
+<p>100% safe and secure transactions.</p>
+
+</div>
+
+<div>
+
+<h3>📞 24/7 Support</h3>
+
+<p>Customer support available anytime.</p>
+
+</div>
+
+</section>
+
+<section class="cart">
+
+<h2>Your Cart</h2>
+
+<div id="cartItems"></div>
+
+<h3>Total : ₹<span id="total">0</span></h3>
+
+</section>
+
+<footer>
+
+<div class="footer">
+
+<div>
+<h3>ShopEase</h3>
+<p>Your one-stop online shopping destination.</p>
+</div>
+
+<div>
+<h3>Quick Links</h3>
+<p><a href="index.html">Home</a></p>
+<p><a href="about.html">About</a></p>
+<p><a href="contact.html">Contact</a></p>
+</div>
+
+<div>
+<h3>Contact</h3>
+<p>📧 support@shopease.com</p>
+<p>📞 +91 9876543210</p>
+</div>
+
+</div>
+
+<p class="copyright">
+© 2026 ShopEase | Developed by Meghana
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+<button id="topBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+⬆
+</button>
+</html>
