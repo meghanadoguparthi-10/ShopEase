@@ -1,11 +1,13 @@
-🛒 ShopEase - Responsive E-Commerce Website
-📌 Overview
+## 🛒 ShopEase - Responsive E-Commerce Website
+## Live Demo:
+**Live Website:** https://meghanadoguparthi-10.github.io/ShopEase/
+**📌 Overview** 
 
 ShopEase is a responsive e-commerce website developed using HTML, CSS, and JavaScript. The project provides a clean and user-friendly online shopping experience with features such as product search, category filtering, shopping cart management, wishlist, and a checkout process.
 
 This project demonstrates front-end web development concepts including responsive layouts, DOM manipulation, Local Storage, and interactive user interfaces.
 
-Features
+**Features**
 🏠 Responsive Home Page
 🛍️ Product Listing with Images
 🔍 Product Search
@@ -22,14 +24,14 @@ Features
 📱 Mobile Responsive Design
 🎨 Modern User Interface
 
-🛠️ Technologies Used
+**🛠️ Technologies Used**
 HTML5
 CSS3
 JavaScript (ES6)
 Local Storage API
 Font Awesome
 
-📂 Project Structure
+**📂 Project Structure**
 ShopEase/
 │
 ├── index.html
